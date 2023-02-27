@@ -1,0 +1,31 @@
+.header {
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	height: 64px;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 30px 0 0 !important;
+	background-color: #fff !important;
+	box-shadow: 0 0 10px rgba(0,0,0,.05);
+	z-index: 10;
+}
+
+.header__logo {
+	width: 200px;
+	background: #6366ff;
+	font-size: 16px;
+	font-weight: 400;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.header__logo > span {
+	color: white !important;
+}
+
+.header__overlay {
+	background-color: #fff;
+}

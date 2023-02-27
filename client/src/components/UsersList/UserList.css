@@ -1,0 +1,8 @@
+.table__deactive-record {
+	opacity: .4;
+	transition: .2s;
+}
+
+.table__deactive-record:hover {
+	opacity: 1;
+}

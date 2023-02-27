@@ -1,0 +1,35 @@
+.tracker__button {
+	width: 100%;
+	padding: 15px 0;
+	display: flex;
+	font-weight: 500;
+	justify-content: center;
+	align-items: center;
+	font-size: 16px;
+	color: white;
+	text-transform: uppercase;
+	background-color: #32da8e;
+	transition: .2s;
+	cursor: pointer;
+}
+
+.tracker__button:hover {
+	background-color: #29b675;
+}
+
+.tracker__button--active {
+	background-color: #ef3178;
+}
+
+.tracker__button--active:hover {
+	background-color: #d52467;
+}
+
+/*.tracker__button--active:hover .tracker__timer {*/
+/*	background-color: #ff4f7f;*/
+/*}*/
+
+.tracker__timer {
+	margin-right: 20px;
+	transition: .5s;
+}

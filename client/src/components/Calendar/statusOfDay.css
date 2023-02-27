@@ -1,0 +1,22 @@
+.status{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    color: grey;
+    margin: 0 0;
+}
+
+.holiday{
+    background: linear-gradient(to right, rgba(255, 215, 0, 70) 20px, rgba(255, 255, 255, 0) 20px);
+}
+
+.dayOff{
+    background: linear-gradient(to right, #e5e5e5 20px, rgba(255, 255, 255, 0) 20px);
+}
+
+.shortDay{
+    background: linear-gradient(to right, rgb(162, 255, 71) 20px, rgba(255, 255, 255, 0) 20px);
+}

@@ -1,0 +1,10 @@
+.sider {
+	background-color: #fff !important;
+	border-right: 1px solid #f1f1f1;
+	position: fixed;
+	top: 64px;
+}
+
+.sider + .content {
+	padding-left: 250px;
+}
